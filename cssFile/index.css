@@ -1,0 +1,68 @@
+h1{
+     
+    font-family: 'Sofia';font-size: 60px;
+}
+
+nav {
+    height: 100px;
+    line-height: 100px;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 30px;
+    line-height: 30px;
+}
+nav .button-collapse i {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+body{
+    background-image: url('/images/bcc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /*width: 85%;
+    height: 610px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 100px;
+        line-height: 100px;
+    }
+}
+/*nav ul li:hover {
+    background-color:green;
+ }  */
+.carousel{
+    height:500px;
+      }
+.scrollToTop{
+        width:100px; 
+        height:130px;
+        padding:10px; 
+        text-align:center; 
+        
+        font-weight: bold;
+        color: #444;
+        text-decoration: none;
+        position:fixed;
+        top:75px;
+        right:40px;
+        display:none;
+        
+    }
+    .scrollToTop:hover{
+        text-decoration:none;
+    }
+    #avatar{
+        width:100px;
+        height:100px;
+    }
+.autotext{
+    color: aliceblue;
+}

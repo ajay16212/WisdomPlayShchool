@@ -1,0 +1,106 @@
+.section{
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(114, 196, 207);
+
+
+    padding: 60px;
+}
+.section h1 {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background:red;
+    margin-bottom: 40px;
+}
+.ph{
+    margin-bottom: 40px;
+}
+.ph a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.ph a img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    transition: 0.4 all;
+}
+.ph a:hover>img{
+    filter: none;
+}
+.sect{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    width: auto;
+    overflow: hidden;
+}
+.sect:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+p{
+    font-family: 'Kaushan Script', cursive;
+}
+.name{
+    font-family: 'Courgette', cursive;
+}
+#main{
+    font-family: 'Kaushan Script', cursive;
+}
+h5{
+    font-family: 'Courgette', cursive;
+}
+.icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+h2{
+    font-family: 'Kaushan Script', cursive;
+}

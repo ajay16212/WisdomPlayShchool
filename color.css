@@ -1,0 +1,125 @@
+#box{
+    background-image: radial-gradient(circle, #fbc2eb, #e7b3e4, #d2a5de, #bb98d7, #a18cd1);
+    height: 200px;
+    width: 100;
+}
+nav{
+    background-color: #2FB1F4;
+   
+}
+#menu{
+    background-image: radial-gradient(circle, #00e3ae, #00d5df, #00c1f9, #60a7f3, #a18cd1);
+
+}
+
+center{
+    padding-bottom: 500px;
+}
+h4{
+    font-family: 'Charmonman', cursive;
+}
+#mobile-demo{
+    background-image: linear-gradient(to left bottom, #b778b5, #8f9cec, #23c1ff, #00e1fe, #38f9d7);
+    font-family: 'Kaushan Script', cursive;
+}
+
+#fonts{
+    font-family: 'Lobster', cursive;
+}
+#first{
+    background-image: linear-gradient(to right bottom, #fef33b, #fcf546, #f9f750, #f7f959, #f5fb62);
+    height: 220px;
+    width: 100%;
+    width: auto;
+    height:auto ;
+}
+ 
+ #foot{
+    font-family: 'Kaushan Script', cursive;
+ }
+ 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  ::-webkit-scrollbar{
+    display: none; 
+}
+.scrollToTop{
+    width:100px; 
+    height:130px;
+    padding:10px; 
+    text-align:center; 
+    
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:75px;
+    right:40px;
+    display:none;
+    
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+#avatar{
+    width:200px;
+    height:200px;
+}
+.modal{
+border-radius: 25px;
+border-color: 5px #00c1f9;
+}
+p{
+    font-family: 'Charmonman', cursive;
+}
+.dropdown-content{
+    background-color: #2FB1F4;
+   transition: 0.75s;
+   border-radius: 25px;
+}
+.dropdown-content :hover{
+    background-color:#fef300 !important;
+    
+}
+nav li:hover{
+   background-color: #fef300;
+    transition: 0.75s;
+    border-radius: 25px ;
+    
+}
+footer ul li a:hover{
+text-color: #fef300;
+transition: 1s;
+}
+.sidenav li:hover{
+    background-color: #fef300 !important;
+    border-radius: 25px;
+    transition: 0.75s;
+}
+.se-pre-con{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:9999;
+    background:url(./images/Simple_Colors.gif) 50% no-repeat #fff
+}
+@media only screen and (min-width:320px) and (max-width:720px){
+    
+    #avatar{
+        width: 100px;
+        height:100px;
+        padding-left: 40% !important;
+    }
+}
+#bb{
+    border-radius: 15px;
+}

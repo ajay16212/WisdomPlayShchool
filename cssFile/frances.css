@@ -1,0 +1,40 @@
+#as{
+    height:900px;
+	width:48%;
+    background-image: linear-gradient(to left bottom, #4f84e6, #707ef6, #9973ff, #c55fff, #f23bf7);
+	margin:20px;
+	box-shadow:0px 0px 10px 0px;
+	display:inline-block;
+	padding-top:30px;
+  float:left;
+  border-radius: 30px;
+  font-display: bold;
+
+}
+#sa{
+    height:900px;
+	width:42%;
+	background-image: linear-gradient(to right bottom, #e6a94f, #ff8e81, #f98ac4, #b39ef4, #3bb1f7);
+	margin:20px;
+	box-shadow:0px 0px 10px 0px;
+	display:inline-block;
+	padding-top:30px;
+  float:left;
+  border-radius: 30px;
+  font-display: bold;
+}
+@media only screen and (min-width:320px) and (max-width:720px){
+    #sa{
+      height:auto;
+        width:90%;
+        float:none;
+      padding-bottom:50px;
+      
+    }
+    #as{
+      height:auto;
+        width:90%;
+        float:none;
+        padding-bottom:50px;
+    }
+  }
